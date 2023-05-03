@@ -1,11 +1,11 @@
 import React from 'react';
 
-let ViewTeacher = () => {
+let HeaderNew = () => {
     return(
         <React.Fragment>
-            <h2><ViewTeacher></ViewTeacher></h2>
+            <h2>HeaderNew</h2>
         </React.Fragment>
     )
 };
 
-export default ViewTeacher;
+export default HeaderNew;
