@@ -1,0 +1,96 @@
+{
+  "teachers": [
+    {
+    "id": "1",
+    "name": "Rajan",
+    "photo": "https://icon-library.com/images/user-png-icon/user-png-icon-16.jpg",
+    "mobile": "070347584",
+    "email": "rajan@gmail.com",
+    "title": "Mr",
+    "subject": "1"
+  },
+
+  {
+    "id": "2",
+    "name": "Kamali",
+    "photo": "https://icon-library.com/images/user-png-icon/user-png-icon-16.jpg",
+    "mobile": "072348684",
+    "email": "kamali@gmail.com",
+    "title": "Mrs",
+    "subject": "4"
+  },
+
+  {
+    "id": "3",
+    "name": "Narthana",
+    "photo": "https://icon-library.com/images/user-png-icon/user-png-icon-16.jpg",
+    "mobile": "078347594",
+    "email": "narthana@gmail.com",
+    "title": "Ms",
+    "subject": "6"
+  },
+
+  {
+    "id": "4",
+    "name": "Wasana",
+    "photo": "https://icon-library.com/images/user-png-icon/user-png-icon-16.jpg",
+    "mobile": "070346585",
+    "email": "wasana@gmail.com",
+    "title": "Mrs",
+    "subject": "4"
+  }
+],
+
+"subjects": [
+  {
+    "id": "1",
+    "name": "Mathematics"
+  },
+
+  {
+    "id": "2",
+    "name": "English"
+  },
+
+  {
+    "id": "3",
+    "name": "Sinhala"
+  },
+
+  {
+    "id": "4",
+    "name": "Geography"
+  },
+
+  {
+    "id": "5",
+    "name": "History"
+  },
+
+  {
+    "id": "6",
+    "name": "Science"
+  },
+
+  {
+    "id": "7",
+    "name": "Tamil"
+  },
+
+  {
+    "id": "8",
+    "name": "A/L Arts Section"
+  },
+
+  {
+    "id": "9",
+    "name": "A/L Science Section"
+  },
+
+  {
+    "id": "10",
+    "name": "A/L Maths Section"
+  }
+  
+  ]
+}
