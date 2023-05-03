@@ -16,10 +16,7 @@ let EditTeacher = () => {
                     <div className="row align-items-center">
                         <div className="col-md-4">
                             <form>
-                                <div className="mb-2">
-                                    <input type="text" className="form-control" placeholder="Title"/> 
-                                </div>
-
+                                
                                 <div className="mb-2">
                                     <input type="text" className="form-control" placeholder="Name"/> 
                                 </div>
