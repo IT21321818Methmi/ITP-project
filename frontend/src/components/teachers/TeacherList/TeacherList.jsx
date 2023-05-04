@@ -42,8 +42,7 @@ let TeacherList = () => {
 
     return (
     <React.Fragment>
-        <pre> {JSON.stringify(teachers)} </pre>
-      <section className="teacher-search p-5">
+        <section className="teacher-search p-5">
         <div className="container">
           <div className="grid">
             <div className="row">
@@ -118,7 +117,7 @@ let TeacherList = () => {
                         </li>
                       </ul>
                     </div>
-                    
+
                     <div className="col-md-1 d-flex flex-column align-items-center">
                     <Link to={`/teachers/view/${teacher.id}`}
                     className="btn btn-warning my-1">
