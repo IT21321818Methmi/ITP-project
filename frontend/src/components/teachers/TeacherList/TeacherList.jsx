@@ -1,9 +1,40 @@
-import React from 'react';
+import React, {useReducer, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { INITIAL_STATE, teacherReducer } from '../../../teacherReducer';
 
-let TeacherList = () => {
-  return (
+
+
+const TeacherList = () => {
+
+    const [state, dispatch] =  useReducer(teacherReducer, INITIAL_STATE)
+
+  const handleFetch = () => {
+    dispatch({type: "FETCH_START"})
+    fetch("")
+    .then((res) =>{
+        return res.json();
+    })
+    .then((data) => {
+        dispatch({type: "FETCH_SUCCESS", payload:data})
+        
+    })
+    .catch((err)=> {
+        dispatch({type: "FETCH_ERROR"})
+    });
+  };
+
+
+  
+
+    return (
     <React.Fragment>
+    <div>
+        
+        <p> {state.loading =""} </p>    
+        
+        <p> {state.teachers?.title}</p>
+        <span> {state.error && "Something went wrong!"}</span>
+    </div>
       <section className="teacher-search p-5">
         <div className="container">
           <div className="grid">
