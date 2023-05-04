@@ -6,7 +6,7 @@ import TeacherList from "./components/teachers/TeacherList/TeacherList";
 import AddTeacher from "./components/teachers/AddTeacher/AddTeacher";
 import ViewTeacher from "./components/teachers/ViewTeacher/ViewTeacher";
 import EditTeacher from "./components/teachers/EditTeacher/EditTeacher";
-import Spinner from './components/Spinner/Spinner';
+
 
 
 let App = () => {
