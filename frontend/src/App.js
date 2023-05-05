@@ -16,11 +16,11 @@ let App = () => {
         
         <HeaderNew/>
           <Routes>
-            <Route path={"/"} element={<Navigate to={'/teachers/list'}/>}/>
+            <Route exact path={"/"} element={<Navigate to={'/teachers/list'}/>}/>
             <Route path={"/teachers/list"} element={<TeacherList/>}/>
             <Route path={"/teachers/add"} element={<AddTeacher/>}/>
-            <Route path={"/teachers/view/:teacherId"} element={<ViewTeacher/>}/>
-            <Route path={"/teachers/edit/:teacherId"} element={<EditTeacher/>}/>
+            <Route path={"/teachers/view/:teachersId"} element={<ViewTeacher/>}/>
+            <Route path={"/teachers/edit/:teachersId"} element={<EditTeacher/>}/>
           </Routes>
         
       </React.Fragment>

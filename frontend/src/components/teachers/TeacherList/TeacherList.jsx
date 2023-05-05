@@ -80,15 +80,15 @@ let TeacherList = () => {
   <div className="container">
     <div className="row">
       {teachers.length > 0 &&
-        teachers.map((teacher) => {
+        teachers.map((teachers) => {
           return (
-            <div className="col-md-6" key={teacher._id}>
+            <div className="col-md-6" key={teachers._id}>
               <div className="card my-2">
                 <div className="card-body">
                   <div className="row align-items-center d-flex justify-content-around">
                     <div className="col-md-4">
                       <img
-                        src={teacher.photo}
+                        src={teachers.photo}
                         alt=""
                         className="teacher-img"
                       />
@@ -98,33 +98,33 @@ let TeacherList = () => {
                         <li className="list-group-item list-group-item-action">
                           Name:
                           <span className="fw-bold">
-                            {teacher.name}
+                            {teachers.name}
                           </span>
                         </li>
 
                         <li className="list-group-item list-group-item-action">
                           Mobile Number:
                           <span className="fw-bold">
-                            {teacher.mobile}
+                            {teachers.mobile}
                           </span>
                         </li>
 
                         <li className="list-group-item list-group-item-action">
                           Email:
                           <span className="fw-bold">
-                            {teacher.email}
+                            {teachers.email}
                           </span>
                         </li>
                       </ul>
                     </div>
 
                     <div className="col-md-1 d-flex flex-column align-items-center">
-                    <Link to={`/teachers/view/${teacher.id}`}
+                    <Link to={`/teachers/view/${teachers._id}`}
                     className="btn btn-warning my-1">
                     <i className="fa fa-eye" />
                     </Link>
 
-                    <Link to={`/teachers/edit/${teacher.id}`}
+                    <Link to={`/teachers/edit/${teachers._id}`}
                     className="btn btn-primary my-1">
                     <i className="fa fa-pen" />
                     </Link>
